@@ -57,10 +57,6 @@ Some examples:
 	
 ## Results
 
-<p align="center">
-groudturth v.s. DeepHullNet  
-</p>
-
 ### Convex hull problem
 An example:  
 	<p align="center">
