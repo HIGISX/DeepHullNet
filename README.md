@@ -8,7 +8,6 @@ Given a finite point set G, the convex hull of G is the smallest convex set S su
 Some examples: 
 	<p align="center">
 	![avatar](https://github.com/CO-RL/DeepHullNet/blob/main/Pic/convex1.png)
-	![avatar](https://github.com/CO-RL/DeepHullNet/blob/main/Pic/convex2.png)  
 	</p>
 	
 **Concave hull problem:**  
@@ -16,7 +15,6 @@ The concave hull problem can be described as looking for a polygon to represent 
 Some examples:  
 		<p align="center">
 	![avatar](https://github.com/CO-RL/DeepHullNet/blob/main/Pic/concave1.png)
-	![avatar](https://github.com/CO-RL/DeepHullNet/blob/main/Pic/concave2.png)  
 	</p>
 ## Installation
 ### Pytorch
@@ -59,7 +57,8 @@ Some examples:
 	
 ## Results
 groudturth v.s. DeepHullNet  
-groudturth v.s. DeepHullNet  
-![avater][C1]
-
+	<p align="center">
+	![avatar](https://github.com/CO-RL/DeepHullNet/blob/main/Pic/convex2.png)
+	![avatar](https://github.com/CO-RL/DeepHullNet/blob/main/Pic/concave2.png)
+	</p>
 
