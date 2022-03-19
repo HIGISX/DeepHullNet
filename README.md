@@ -56,9 +56,13 @@ Some examples:
 	python 04_evaluate_DeepHullNet.py Concave -m convex
 	
 ## Results
+<p align="center">
 groudturth v.s. DeepHullNet  
+</p>
 	<p align="center">
+	Convex hull problem
 	![avatar](https://github.com/CO-RL/DeepHullNet/blob/main/Pic/convex2.png)
+	Concave hull problem
 	![avatar](https://github.com/CO-RL/DeepHullNet/blob/main/Pic/concave2.png)
 	</p>
 
