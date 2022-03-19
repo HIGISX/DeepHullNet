@@ -5,10 +5,11 @@ DeepHullNet: Learn to solve the convex hull and concave hull with Transform.
 ## Convex Hull and Concave Hull
 
 	**Convex hull problem:** Given a finite point set G, the convex hull of G is the smallest convex set S such that $S\subset G$. The groudtruth is provided by SciPy.
-Some examples:  
+Some examples: 
+	<p align="center">
 	![avatar](https://github.com/CO-RL/DeepHullNet/blob/main/Pic/convex1.png)
 	![avatar](https://github.com/CO-RL/DeepHullNet/blob/main/Pic/convex2.png)  
-	
+	</p>
 	Concave hull problem: The concave hull problem can be described as looking for a polygon to represent the area of a region. The ground-truth is based on Moreira and Santos see in https://github.com/sebastianbeyer/concavehull.
 Some examples:  
 	![]()
