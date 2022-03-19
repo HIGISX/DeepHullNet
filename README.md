@@ -59,10 +59,11 @@ Some examples:
 <p align="center">
 groudturth v.s. DeepHullNet  
 </p>
+### Convex hull problem
 	<p align="center">
-	Convex hull problem
 	![avatar](https://github.com/CO-RL/DeepHullNet/blob/main/Pic/convex2.png)
-	Concave hull problem
+	</p>
+### Concave hull problem
+	<p align="center">
 	![avatar](https://github.com/CO-RL/DeepHullNet/blob/main/Pic/concave2.png)
 	</p>
-
