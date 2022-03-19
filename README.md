@@ -61,11 +61,11 @@ groudturth v.s. DeepHullNet
 </p>
 ### Convex hull problem
 
-	<p align="center">
-	![avatar](https://github.com/CO-RL/DeepHullNet/blob/main/Pic/convex2.png)
-	</p>
+<p align="center">
+![avatar](https://github.com/CO-RL/DeepHullNet/blob/main/Pic/convex2.png)
+</p>
 ### Concave hull problem
 
-	<p align="center">
-	![avatar](https://github.com/CO-RL/DeepHullNet/blob/main/Pic/concave2.png)
-	</p>
+<p align="center">
+![avatar](https://github.com/CO-RL/DeepHullNet/blob/main/Pic/concave2.png)
+</p>
