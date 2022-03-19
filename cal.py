@@ -40,11 +40,7 @@ class AverageMeter(object):
         self.count += n
         self.avg = self.sum / self.count
 
-def masked_accuracy(
-        output: torch.Tensor,
-        target: torch.Tensor,
-        mask: torch.Tensor
-) -> float:
+def masked_accuracy(output, target, mask):
     """
     Compute accuracy of softmax output with mask applied over values.
 

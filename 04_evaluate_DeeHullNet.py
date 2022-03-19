@@ -1,5 +1,5 @@
 import torch
-from model import DeepHullNet
+from models.Transform.model import DeepHullNet
 from process import Scatter2DDataset
 from torch.utils.data import DataLoader
 from cal import AverageMeter, masked_accuracy, calculate_hull_overlap
@@ -34,7 +34,7 @@ def measure(model, test_loader, device):
         batch_labels = batch_labels.to(device)
         batch_lengths = batch_lengths.to(device)
 
-        log_pointer_scores, pointer_argmaxs = model(batch_data, batch_lengths)
+        log_pointer_scores, pointer_argmaxs = model(batch_data, batch_lengths, batch_labels=batch_labels)
         mask = batch_labels != TOKENS['<eos>']
         acc, seq_acc = masked_accuracy(pointer_argmaxs, batch_labels, mask)
         test_accuracy.update(acc.item(), mask.int().sum().item())

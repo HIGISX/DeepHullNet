@@ -4,7 +4,7 @@ from scipy.spatial import ConvexHull
 from concavehull import concaveHull
 from solver import generate_random_points, gen_targets
 
-def display_points(points: np.ndarray) -> None:
+def display_points(points):
     """
     Display a set of 2D points on a scatterplot.
 
@@ -26,10 +26,7 @@ def display_points(points: np.ndarray) -> None:
         plt.title(f'N: {len(points)}')
         plt.grid(True)
 
-def display_points_with_hull(
-    points: np.ndarray,
-    hull: list
-    ) -> None:
+def display_points_with_hull(points, hull):
     """
     Display a set of 2D points with its convex hull.
 
@@ -54,8 +51,6 @@ def display_points_with_hull(
             color='green')
     plt.plot(x, y, 'g')
     plt.grid(True)
-
-
 
 if __name__ == '__main__':
     nodes = 20

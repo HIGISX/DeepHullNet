@@ -37,7 +37,7 @@ def save_data(data, cfg, name=None, data_dir='./dataset'):
     return file_name
 
 
-def generate_random_points(n: int, sort_method: str = 'lex'):
+def generate_random_points(n, sort_method: str = 'lex'):
     """
     Randomly sample n sorted uniformly distributed 2D points from [0.0, 1.0).
 
@@ -59,7 +59,7 @@ def generate_random_points(n: int, sort_method: str = 'lex'):
         raise ValueError(f'{sort_method} is not a valid option for sort_method.')
     return points
 
-def cyclic_permute(l: list, idx: int):
+def cyclic_permute(l, idx):
   """
   Permute a list such that l[idx] becomes l[0] while preserving order.
 
