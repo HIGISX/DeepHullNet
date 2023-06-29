@@ -25,7 +25,8 @@ Some examples:
 	https://docs.conda.io/en/latest/miniconda.html
 ### Other requirments
 	pip install -r requirments.txt
-
+## Quick Start
+You can run the DeepHullNet_visual.ipynb to quick start.
 ## Running the experiments
 ### Convex hull problem 
 	# Generate samples
