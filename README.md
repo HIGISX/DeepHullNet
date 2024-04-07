@@ -1,6 +1,6 @@
 # DeepHullNet
 
-DeepHullNet: Learn to solve the convex hull and concave hull with Transform.
+DeepHullNet: A Deep Learning Approach for Solving the Convex Hull and Concave Hull Problems with Transformer
 
 ## Convex Hull and Concave Hull
 **Convex hull problem:**  
